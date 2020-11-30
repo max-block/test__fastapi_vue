@@ -1,13 +1,11 @@
 import {createRouter, createWebHistory} from 'vue-router'
-import Home from '../views/Home.vue'
-import Data1 from "../views/Data1"
-import Data2 from "../views/Data2"
+import Data1 from "../views/Data1Page"
+import Data2 from "../views/Data2Page"
 
 const routes = [
     {
         path: '/',
-        name: 'Home',
-        component: Home
+        redirect: () => ({"s": 1})
     },
     {
         path: '/data1',
