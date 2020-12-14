@@ -5,7 +5,7 @@ import Data2 from "../views/Data2Page"
 const routes = [
     {
         path: '/',
-        redirect: () => ({"s": 1})
+        redirect: () => ({"path": "/data1"})
     },
     {
         path: '/data1',

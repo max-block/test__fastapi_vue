@@ -19,9 +19,3 @@ export default {
   }
 }
 </script>
-
-<style>
-table {
-  border: 1px solid black;
-}
-</style>
